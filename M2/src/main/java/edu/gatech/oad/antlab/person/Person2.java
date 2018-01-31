@@ -35,10 +35,10 @@ public class Person2 {
 	private String calc(String input) {
 	    Random random = new Random();
 	    String output = "";
-	    while (input.length > 0) {
-		int index = random.nextInt(input.length);
+	    while (input.length() > 0) {
+		int index = random.nextInt(input.length());
 		output += input.substring(index, index + 1);
-		input = input.substring(0, index) + input.substring(index + 1, input.length);
+		input = input.substring(0, index) + input.substring(index + 1, input.length());
 	    }
 	    return output;
 	}
