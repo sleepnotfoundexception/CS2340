@@ -82,26 +82,17 @@ import edu.gatech.oad.antlab.pkg2.*;
     }
 
 
+
     /**
      * entry point for the program
      */
-     public static void main(String[] args) {
+    public static void main(String[] args) {
 
         new AntLabMain().printOutMessage();
-<<<<<<< HEAD
 
-     }
-
+    }
 
 
 
- }
-=======
-        
-     } 
-    
-    
-    
-    
- } 
->>>>>>> 76a6d2d2f710ef78160deae0e22ea89a2c1ae315
+
+}
