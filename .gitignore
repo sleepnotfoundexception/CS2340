@@ -4,6 +4,8 @@ Icon?
 Thumbs.db
 
 settings.gradle
+/M2/lib/.gradle
+/M2/lib/gradle
 /M2/gradle
 /M2/gradlew
 /M2/gradlew.bat
